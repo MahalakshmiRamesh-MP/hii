@@ -1,0 +1,51 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-24T06:00:14.925Z",
+        "line": 10,
+        "name": "Successfull login",
+        "description": "",
+        "id": "login-into-testmeapp;successfull-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "user is on the login page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user enters \"mahaprabha\" and \"papss123\" and click submit button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user does Successfull login",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login into testmeapp",
+    "description": "",
+    "id": "login-into-testmeapp",
+    "keyword": "Feature",
+    "uri": "classpath:cs2/cs2.feature",
+    "tags": []
+  }
+]
